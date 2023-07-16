@@ -1,175 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- google fonts -->
+       <!-- google fonts -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=PT+Serif&family=Playfair+Display:wght@400;700&family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./css/style.css">
-  <title>Blog challenge</title>
-</head>
+  <title>Recip-page</title>
 
+</head>
 <body>
 
-  <div id="loading">
-    <div class="loading__icon"></div>
-  </div>
-  
-<main>
-  <article>
-    <div class="header">
-      <h1 class="head_h1">Classic Cheesecake Recipe</h1>
-      <p class="head_p"> Lorem Ipsum is simply  dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make 
-        a type specimen book
-      </p>
+    <div id="loading">
+        <div class="loading__icon"></div>
     </div>
 
-    <img  class="img" src="./img/photo1.png" alt="">
-    <div id="container-text">
-      <div class="timing">
-        <div class="item">
-          <i class="material-icons timing_icon timing__icon--orange">Local dining</i>
-        </div>
-      </div>
-    </div>
+    <main>
 
-    <section class="ingredients">
-      <h2 class="title-ingredients">Ingredients</h2>
-      <h3 class="subtitle-ingredients">Grahan Cracker Crust</h3>
+        <article>
+            <div class="heading">
+                <h1 class="heading-h1"> Classic Cheesecake Recipe</h1>
+                <p class="heading-p">Look no further for a creamy and smooth classic cheesecake 
+                    recipe! Paired with a buttery gram craker crust asn deny its simple decadence.
+                    For the best results, bake in water bath.
+                </p>
+            </div>
 
-      <form action="">
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> 1 and 1/2 cups(150g) <b>graham cracker crumbs (about 10 full sheet graham crackers)</b> </label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> 5 Tablespoons (70g) <b>unsalted butter,</b> milted </label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> 1/4 cup (50g) <b> granulated sugar</b> </label><br><br>
-      </form>
-      
+            <img src="./img/photo1.png" alt="">
+            <div id="container-text">
+                <div class="timing">
+                    <div class="timing-item">
+                        <i class="material-icons timing__icon timing__icon--orange">local_dining</i>
+                        <span class="timing__item">YIELDS </span>
+                        <span class="timing__desc timing__desc--orange">12 serving</span>
+                    </div>
 
-      <h3 class="subtitles-ingredients">Sheesecake</h3>
+                    <div class="timing__item">
+                        <i class="material-icons timing__icon">
+                            query_builder
+                        </i>
+                        <span class="timing__title">PREP TIME</span>
+                        <span class="timing__desc">45 minutEs</span>
+                    </div>
+                    
+                    <div class="timing__item">
+                        <i class="material-icons timing__icon">query_builder </i>
+                        <span class="timing__title">COOK TIME</span>
+                        <span class="timing__desc">1 hOUR</span>
+                    </div>
+                    
+                    <div class="timing__item">
+                        <i class="material-icons timing__icon">
+                            query_builder
+                        </i>
+                        <span class="timing__title">TOTAL TIME</span>
+                        <span class="timing__desc">7,75 hoURS</span>
+                    </div>
+                </div>
 
-    <form action="">
-      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-      <label for="vehicle1">four 8-ounce blocks(904g) <b>cream cheese,</b> sostened to room </label><br>
-      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> 1 cup (200g) <b>unsalted butter,</b> milted </label><br>
-      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> 1 cup (200g) <b>unsalted butter,</b> milted </label><br>
-      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-      <label for="vehicle2"> 1 cup (200g) <b>unsalted butter,</b> milted </label><br>
-      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-      <label for="vehicle3"> topping suggestions: salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganche, fresh fruit, whipped cream, or raspberry sauce(recipe in notes) </label><br><br>
-    </form>
-    </section>
-  </article>
+                <section class="ingredients">
+                    <h2 class="ingredients-title">Ingredients</h2>
+                    <h3 class="ingredients-subtitle ingredients-subtitle--graham"> Graham Cracker Crust</h3>
+                    <p class="ingrdients-p">
+                        <span class="container-checkbox">
+                            <input id="checkbox-1" type="checkbox" name="ingredient-check">
+                            <label class="ingredients-label" for="checkboc-1"></label>
+                        </span>
 
-<section class="instructions">
+                        <span>1 and 1/2 cups(150g) <strong>graham cracker crumbs</strong>(about 10 full sheet graham crackers) </span></p>
 
-  <h2 class="title-intructions">Instructions</h2>
-  <div class="instructions-step">
-    <div class="number">1</div>
-    <p class="instructions-p">
-      Lorem Ipsum is simply  dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-      when an unknown printer took a galley of type and scrambled it to make 
-      a type specimen book.
-    </p>
-  </div>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-2" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-2"></label>
+                            </span>
+                            <span>5 Tablespoons(70g) <strong>unsalted butter,</strong>milted</span>
+                        </p>
 
-  <div class="title-intructions">
-    <h2 class="title-intructions">Instructions</h2>
-    <ol>
-      <li>
-        <p>
-          Lorem Ipsum is simply  dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make 
-          a type specimen book.
-        </p>
-      </li>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-3" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-3"></label>
+                            </span>
+                            <span>1/4 cup (50g) <strong>granulated sugar</strong></span>
+                        </p>
 
-      <li>
-        <p>
-          <b>Make the crust:</b>  dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make 
-          a type specimen book. It has survived not only five centuries, but also 
-          the leap into electronic typesetting, remaining essentially unchanged
-        </p>
-      </li>
+                        <!-- cheesecake -->
+                        <h3 class="ingredients-subtitle ingredients-subtitle--cake">Cheessecake</h3>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-4" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-4"></label>
+                            </span>
+                            <span>four 8-ounce blocks (904g) full-fat <strong>cream cheese,</strong>softened to room temperature</span>
+                        </p>
 
-      <li>
-        <p>
-          <b>Mmake the filling:</b>  dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make 
-          a type specimen book. It has survived not only five centuries, but also 
-          the leap into electronic typesetting, remaining essentially unchanged
-        </p>
-      </li>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-5" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-5"></label>
+                            </span>
+                            <span>1 cup (200g) <strong>granulated sugar</strong></span>
+                        </p>
 
-      <li>
-        <p>
-          <b>Prepare the simple water bath(see note):</b>  dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make 
-          a type specimen book. It has survived not only five centuries, but also 
-          the leap into electronic typesetting, remaining essentially unchanged
-        </p>
-      </li>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-6" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-6"></label>
+                            </span>
+                            <span>1 cup (240g) full-fat <strong> sour cream,</strong>at room temperature</span>
+                        </p>
 
-      <li>
-        <p>
-          <b>Lorem Ipsum is simply:</b>  dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make 
-          a type specimen book. It has survived not only five centuries, but also 
-          the leap into electronic typesetting, remaining essentially unchanged
-        </p>
-      </li>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-7" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-7"></label>
+                            </span>
+                            <span>1 teaspoon  <strong>pure vainilla extract,</strong></span>
+                        </p>
 
-      <li> 
-        <p>
-          <b>Lorem Ipsum is simply:</b>  dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make 
-          a type specimen book. It has survived not only five centuries, but also 
-          the leap into electronic typesetting, remaining essentially unchanged
-        </p>
-      </li>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-8" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-8"></label>
+                            </span>
+                            <span>2 teaspoon <strong>fresh lemon juice</strong>(optional, but recommended)</span>
+                        </p>
 
-      <li>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make 
-          a type specimen book.
-      </li>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-9" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-9"></label>
+                            </span>
+                            <span>3 lsrge <strong>eggs,</strong>at room temperature</span>
+                        </p>
 
-      <li>
-        <p>
-          Lorem Ipsum is simply  dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy .
-        </p>
-      </li>
-    </ol>   
-  </div>
+                        <p class="ingredients-p">
+                            <span class="container-checkbox">
+                                <input id="checkbox-10" type="checkbox" name="ingredient-check">
+                                <label class="ingreddints-label" for="checkbox-10"></label>
+                            </span>
+                            <span>topping suggestions: <span id="italic-span">salted caramel, lemon curd,
+                                 strawberry topping, chocolate ganache, red wine chocolate ganche, fresh fruit, 
+                                 whipped cream, or raspberry sauce </span>(recipe in notes) </span>
+                        </p>
+                </section>
 
-  <a href="Source:https://sallysbakingaddiction.com/classic-cheesecake/">Source:</a>
+                <section class="instructions">
+                    <h2 class="instructions__title">Instructions</h2>
+                <div class="instructions__step">
+                    <div class="instructions__number">1</div><p class="instructions__p">Adjust the oven rack to the lower-middle position and preheat oven to 350°F (177°C).</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">2</div><p class="instructions__p"><span class="bold-span">Make the crust:</span> Con un procesador de alimentos, procese las galletas Graham hasta obtener migas. Vierta en un tazón mediano y agregue el azúcar y la mantequilla derretida hasta que se combinen. (También puede mezclarlo todo junto en el procesador de alimentos). La mezcla quedará arenosa. Presione firmemente en el fondo y ligeramente hacia arriba por los lados de un molde desmontable de 9 o 10 pulgadas. No es necesario engrasar el molde primero. Yo uso el fondo de una taza medidora para que la corteza quede bien compacta. Hornee previamente durante 8 minutos. Retirar del horno y colocar el molde caliente sobre un trozo grande de papel de aluminio. El papel de aluminio se envolverá alrededor del molde para el baño de agua en el paso 4. Deje que la corteza se enfríe un poco mientras prepara el relleno.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">3</div><p class="instructions__p"><span class="bold-span">Haga el relleno:</span> Con una batidora de mano o de pie equipada con un accesorio de paleta, bata el queso crema y el azúcar granulada a velocidad media-alta en un tazón grande hasta que la mezcla esté suave y cremosa, aproximadamente 2 minutos. Agregue la crema agria, el extracto de vainilla y el jugo de limón y luego bata hasta que esté completamente combinado. A velocidad media, agregue los huevos de uno en uno, batiendo después de cada adición hasta que se mezclen. Cuando el último huevo se incorpore a la masa, deje de mezclar. Para ayudar a evitar que la tarta de queso se desinfle y se agriete a medida que se enfría, evite mezclar demasiado la masa.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">4</div><p class="instructions__p"><span class="bold-span">Prepare el baño de agua simple (ver nota)</span> Hierva una olla de agua. Necesitas 1 pulgada de agua en tu olla para el baño de agua, así que asegúrate de hervir suficiente. Yo uso una tetera entera de agua caliente. Mientras el agua se calienta, envuelva el papel de aluminio alrededor del molde desmontable. Vierta la masa de la tarta de queso sobre la corteza. Usa una espátula de goma o una cuchara para alisarlo en una capa uniforme. Coloque el molde dentro de una asadera grande. Vierta con cuidado el agua caliente dentro del molde y métalo en el horno. (O puede colocar primero la bandeja para asar en el horno y luego verter el agua caliente. Lo que sea más fácil para usted).</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">5</div><p class="instructions__p">Hornee la tarta de queso durante 55-70 minutos o hasta que el centro esté casi cuajado. Cuando esté listo, el centro de la tarta de queso se tambaleará levemente si agita suavemente el molde. Apague el horno y abra ligeramente la puerta del mismo. Deje reposar la tarta de queso en el horno en el baño de agua mientras se enfría durante 1 hora. Retire del horno y del baño de agua, luego deje enfriar la tarta de queso completamente a temperatura ambiente. A continuación, refrigere la tarta de queso durante al menos 4 horas o toda la noche.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">6</div><p class="instructions__p">Use un cuchillo para aflojar la tarta de queso fría del borde del molde desmontable, luego retire el borde. Con un cuchillo limpio y afilado, córtelo en rodajas para servir. Para obtener rebanadas limpias, limpie el cuchillo y sumérjalo en agua tibia entre cada rebanada.</p>
+                </div>
+                
+                <div class="instructions__step">
+                    <div class="instructions__number">7</div><p class="instructions__p">Sirva la tarta de queso con la cobertura deseada. Cubra y guarde la tarta de queso sobrante en el refrigerador hasta por 5 días.</p>
+                </div>
 
-</section>
-</main>
-
-<footer id="footer">
-  <p>Creado por <a target="blank">Vladimira Sarzuri</a> - devChallenge.io</p>
-</footer>
+                </section>
+            </div>
+        </article>
+    </main>
+    
 </body>
 </html>
